@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1.54046E+12,16,Get everything,200,,Thread Group 1-1,text,TRUE,,3695,171,1,1,16,0,1
+1.54046E+12,16,Get by name,200,,Thread Group 1-1,text,TRUE,,372,191,1,1,16,0,0
+1.54046E+12,1,Get by ID,200,,Thread Group 1-1,text,TRUE,,475,173,1,1,1,0,0
+1.54046E+12,8,Post,201,,Thread Group 1-1,text,TRUE,,326,572,1,1,8,0,0
+1.54046E+12,3,Put,204,,Thread Group 1-1,text,TRUE,,100,592,1,1,0,0,0
+1.54046E+12,3,Delete,204,,Thread Group 1-1,,TRUE,,54,196,1,1,0,0,0
+,,,successful response codes,,,,All smoke tests have successfully passed,,,,,,,,
